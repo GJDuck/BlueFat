@@ -82,7 +82,7 @@ strong security/compatibility guarantees with a minimal performance loss.
 The origins of FRPs (and BlueFat) can be traced back to the *RedFat binary
 hardening system*:
 
-    * [https://github.com/GJDuck/RedFat](https://github.com/GJDuck/RedFat)
+* [https://github.com/GJDuck/RedFat](https://github.com/GJDuck/RedFat)
 
 Specifically, the goal is stronger memory safety guarantees without
 compromising on binary compatibility.
