@@ -2,12 +2,13 @@ Fully Randomized Pointers (BlueFat)
 ===================================
 
 BlueFat is a software implementation of the concept of *Fully Randomized
-Pointers* (FRP).
+Pointers* (FRPs).
 
-FRPs are an experimental pointer (`p`) encoding that is:
+FRPs are an experimental pointer (`p`) encoding that:
 
-1. Full binary **compatibility** with all the standard pointer operations,
-   including: dereference (`*p`), arithmetic (`p+k`), comparison (`p < q`), etc.
+1. Achieves full binary **compatibility** with all the standard pointer
+   operations, including: dereference (`*p`), arithmetic (`p + k`), comparison
+   (`p < q`), etc.
 2. **Uses a fully randomized bit representation** meaning that pointers are
    essentially just random numbers.
 
@@ -95,4 +96,18 @@ To use the current prototype, please perform the following steps:
 To use the tool,
 
         LD_PRELOAD=<PIN_DIR>/libbluefat.so <PIN_DIR>/pin -t <PIN_DIR>/source/tools/ManualExamples/obj-intel64/bluefat.so -- <APPLICATION_BINARY_WITH_ARGS>
+
+License
+-------
+
+This software has been released under the GNU Public License (GPL) Version 3.
+See the `LICENSE` file for more information.
+
+Preprint
+--------
+
+* Gregory J. Duck, Sai Dhawal Phaye, Roland H. C. Yap, Trevor E. Carlson,
+  *Fully Randomized Pointers*, 2024
+
+(link coming soon)
 
