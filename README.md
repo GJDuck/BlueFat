@@ -79,6 +79,19 @@ properties of FRPs.
 The aim is to eventually implement FRPs directly in hardware, allowing for
 strong security/compatibility guarantees with a minimal performance loss.
 
+The origins of FRPs (and BlueFat) can be traced back to the *RedFat binary
+hardening system*:
+
+    * [https://github.com/GJDuck/RedFat](https://github.com/GJDuck/RedFat)
+
+Specifically, the goal is stronger memory safety guarantees without
+compromising on binary compatibility.
+To help achieve this, we also drop RedFat's assumption that the hardening
+solution must run on existing (`x86_64`) hardware.
+Assuming that the hardware itself can be redesigned, this allows for more
+"radical" pointer encodings that strike a good balance between security and
+compatibility, such as FRPs.
+
 Building & Running
 ------------------
 
