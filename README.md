@@ -120,7 +120,5 @@ Preprint
 --------
 
 * Gregory J. Duck, Sai Dhawal Phaye, Roland H. C. Yap, Trevor E. Carlson,
-  *Fully Randomized Pointers*, 2024
-
-(link coming soon)
+  [*Fully Randomized Pointers*](https://arxiv.org/abs/2405.12513), 2024
 
